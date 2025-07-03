@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Concept to Completion: Our First Client Website for Evanthi Remodeling LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8; /* Off-white / Cream */
+            color: #333;
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #D97706; /* Amber-600 */
+        }
+        .active-link {
+            color: #D97706;
+            font-weight: 600;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header id="header" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800"><a href="index.html">Larkin Langston Blog</a></div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#initial-spark" class="nav-link text-gray-600">The Spark</a>
+                <a href="#planning" class="nav-link text-gray-600">The Blueprint</a>
+                <a href="#design-development" class="nav-link text-gray-600">Execution</a>
+                <a href="#launch-support" class="nav-link text-gray-600">Launch & Beyond</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="py-20 md:py-32 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight fade-in">From Concept to Completion: <span class="text-amber-600">Our First Client Website</span> for Evanthi Remodeling LLC</h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto fade-in" style="transition-delay: 200ms;">Building our first client website was a monumental step, and it began with Evanthi Remodeling LLC in Columbia, SC. Join us as we break down how we brought their vision to life.</p>
+            </div>
+        </section>
+
+        <section id="initial-spark" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 fade-in">Step 1: The Initial Spark – Understanding Evanthi's Vision</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto fade-in">Our first priority was to truly understand Evanthi Remodeling's goals. They needed a website that reflected their quality craftsmanship and professional approach.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="card bg-white p-8 rounded-xl shadow-lg fade-in">
+                        <div class="text-4xl mb-4 text-amber-600">🎯</div>
+                        <h3 class="text-xl font-semibold mb-2">Target Audience & Services</h3>
+                        <p class="text-gray-600">Homeowners in Columbia, SC looking for reliable, high-quality remodeling. We listed their offerings, from design consultation to project completion.</p>
+                    </div>
+                    <div class="card bg-white p-8 rounded-xl shadow-lg fade-in" style="transition-delay: 100ms;">
+                        <div class="text-4xl mb-4 text-amber-600">🎨</div>
+                        <h3 class="text-xl font-semibold mb-2">Brand Aesthetic & Features</h3>
+                        <p class="text-gray-600">We explored their preferred style (modern, traditional, blend) and identified must-haves: portfolio, testimonials, quote requests, and contact info.</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-center text-gray-600 max-w-3xl mx-auto fade-in" style="transition-delay: 200ms;">This initial phase was crucial for laying a strong foundation and ensuring we were perfectly aligned with their expectations.</p>
+            </div>
+        </section>
+        
+        <section id="planning" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 fade-in">Step 2: Crafting the Blueprint – Planning and Wireframing</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto fade-in">With a clear understanding, we moved into the planning phase to map out the user journey.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="w-full md:w-1/2 bg-gray-50 p-8 rounded-xl shadow-lg fade-in">
+                        <h3 class="text-2xl font-semibold mb-4 text-amber-600">Sitemap Creation</h3>
+                        <p class="text-gray-700">We mapped out the entire website structure, deciding on pages like "Home," "Services," "Gallery," "About Us," and "Contact." This ensured logical navigation for their visitors.</p>
+                        <ul class="list-disc list-inside text-gray-600 mt-4 space-y-1">
+                            <li>Home</li>
+                            <li>Services</li>
+                            <li>Gallery</li>
+                            <li>About Us</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 bg-gray-50 p-8 rounded-xl shadow-lg fade-in" style="transition-delay: 150ms;">
+                        <h3 class="text-2xl font-semibold mb-4 text-amber-600">Wireframing</h3>
+                        <p class="text-gray-700">We created low-fidelity wireframes—skeletal outlines of each page. These helped us visualize content layout, image placement, and call-to-action buttons, allowing Evanthi to provide early feedback on user experience.</p>
+                        <p class="text-sm text-gray-500 italic mt-4">"Visualize content, placement, and user flow."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="design-development" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 fade-in">Step 3 & 4: Bringing it to Life – Design & Development</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto fade-in">With the blueprint in hand, the website began to take shape, both visually and functionally.</p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row items-start gap-12 mb-16">
+                    <div class="w-full lg:w-1/2 fade-in">
+                        <h3 class="text-2xl font-bold mb-4 text-amber-600">Visual Design & Content</h3>
+                        <p class="text-gray-600 mb-4">Based on Evanthi's brand, we developed a cohesive visual design: a professional and warm color palette, appropriate typography, and a clean interface. We also helped craft compelling content, including descriptions of processes, high-quality project images, and client testimonials.</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Professional color palette & typography</li>
+                            <li>Clean, intuitive user interface</li>
+                            <li>Compelling content & high-quality images</li>
+                            <li>Client testimonials integration</li>
+                        </ul>
+                    </div>
+                    <div class="w-full lg:w-1/2 bg-gray-50 p-8 rounded-xl shadow-lg fade-in" style="transition-delay: 150ms;">
+                        <h3 class="text-2xl font-bold mb-4 text-amber-600">Development & Functionality</h3>
+                        <p class="text-gray-600 mb-4">We opted for a robust, user-friendly CMS for easy updates and ensured the website was fully responsive across all devices. Essential features were integrated to create a seamless user experience.</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Robust CMS for future updates</li>
+                            <li>Fully **responsive design** for all devices</li>
+                            <li>Dynamic project gallery</li>
+                            <li>Intuitive contact form for quotes</li>
+                            <li>Social media channel integration</li>
+                            <li>On-page **SEO optimization**</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="launch-support" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 fade-in">Step 5 & 6: Polishing, Launch & Beyond</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto fade-in">The final steps involved meticulous testing before launch and committing to ongoing support for Evanthi Remodeling.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="card bg-gray-50 p-8 rounded-xl shadow-lg fade-in">
+                        <div class="text-4xl mb-4 text-amber-600">✅</div>
+                        <h3 class="text-xl font-semibold mb-2">Meticulous Testing & Go-Live!</h3>
+                        <p class="text-gray-600">Before launch, we performed extensive browser compatibility and functionality testing. Every link and form was checked, and a final UX review ensured a smooth user journey. Once confident, we proudly launched the site!</p>
+                        <ul class="list-disc list-inside text-gray-600 mt-4 space-y-1">
+                            <li>Browser compatibility testing</li>
+                            <li>Functionality testing of all elements</li>
+                            <li>Final User Experience (UX) review</li>
+                        </ul>
+                    </div>
+                    <div class="card bg-gray-50 p-8 rounded-xl shadow-lg fade-in" style="transition-delay: 100ms;">
+                        <div class="text-4xl mb-4 text-amber-600">🤝</div>
+                        <h3 class="text-xl font-semibold mb-2">Post-Launch Support & Future Growth</h3>
+                        <p class="text-gray-600">Our relationship continued beyond launch. We provided training for site management and offered ongoing support. We also discussed future growth strategies, including content development and further SEO enhancements.</p>
+                        <ul class="list-disc list-inside text-gray-600 mt-4 space-y-1">
+                            <li>Training on website management</li>
+                            <li>Ongoing support and maintenance</li>
+                            <li>Discussion of future growth strategies (blog, advanced SEO)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 fade-in">A Rewarding Journey, a Strong Online Presence</h2>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto fade-in" style="transition-delay: 200ms;">Building the Evanthi Remodeling LLC website was an incredibly rewarding experience. It solidified our processes and proved that clear communication, a collaborative spirit, and a dedication to quality are the cornerstones of successful web development. We're proud to have helped Evanthi Remodeling establish a strong online presence that truly reflects the quality of their work.</p>
+                <button onclick="window.location.href='https://larkinlangston.com/contact';" class="mt-8 px-8 py-4 bg-amber-600 text-white font-bold rounded-lg shadow-lg hover:bg-amber-700 transition-colors fade-in" style="transition-delay: 300ms;">Ready to Build Your Digital Presence?</button>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-white border-t border-gray-200">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2025 Larkin Langston. All Rights Reserved.</p>
+            <p class="text-sm mt-2">Connecting businesses with their digital future.</p>
+        </div>
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- Navigation Highlighting ---
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('header nav a');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5 // Adjust as needed to trigger highlight
+    };
+
+    const sectionObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.getAttribute('id');
+                navLinks.forEach(link => {
+                    link.classList.remove('active-link');
+                    if (link.getAttribute('href') === `#${id}`) {
+                        link.classList.add('active-link');
+                    }
+                });
+            }
+        });
+    }, observerOptions);
+
+    sections.forEach(section => {
+        sectionObserver.observe(section);
+    });
+
+    // --- Fade-in on Scroll ---
+    const fadeElements = document.querySelectorAll('.fade-in');
+
+    const fadeInObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                // Add a staggered delay for a nicer effect based on the order it appears in the DOM
+                const delay = parseInt(entry.target.style.transitionDelay) || 0;
+                setTimeout(() => {
+                    entry.target.classList.add('visible');
+                }, delay + (index * 50)); // Small additional delay per element
+                fadeInObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+
+    fadeElements.forEach(el => {
+        fadeInObserver.observe(el);
+    });
+
+});
+</script>
+</body>
+</html>
